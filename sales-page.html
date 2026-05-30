@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux System Optimizer v1.0</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .feature h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .price {
+            text-align: center;
+            font-size: 3em;
+            color: #667eea;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        
+        .cta {
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        
+        .testimonials {
+            margin-top: 40px;
+        }
+        
+        .testimonial {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-style: italic;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .price {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🐧 Linux System Optimizer</h1>
+            <p>Boost your slow Linux system to maximum performance</p>
+        </div>
+        
+        <div class="card">
+            <h2>🚀 What You Get</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>⚡ ZRAM</h3>
+                    <p>Compressed swap in RAM for 2x faster performance</p>
+                </div>
+                <div class="feature">
+                    <h3>💾 Swappiness</h3>
+                    <p>Optimized swap usage for better responsiveness</p>
+                </div>
+                <div class="feature">
+                    <h3>🔧 Services</h3>
+                    <p>Disable unnecessary background processes</p>
+                </div>
+                <div class="feature">
+                    <h3>🚀 Preload</h3>
+                    <p>Preload apps for instant launch times</p>
+                </div>
+                <div class="feature">
+                    <h3>📝 Journal</h3>
+                    <p>Limit log size to save disk space</p>
+                </div>
+                <div class="feature">
+                    <h3>🎨 Compositor</h3>
+                    <p>Disable desktop effects for better GPU</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <h2>📊 Results</h2>
+            <p>Typical improvements on low-spec systems:</p>
+            <ul style="margin-top: 15px; padding-left: 20px;">
+                <li>Boot time: 45s → 30s</li>
+                <li>RAM usage: 743MB → 500MB</li>
+                <li>App launch: 3s → 1.5s</li>
+                <li>Swap usage: High → Low</li>
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h2>💰 Price</h2>
+            <div class="price">$5</div>
+            <p style="text-align: center;">One-time purchase, lifetime updates</p>
+        </div>
+        
+        <div class="card">
+            <h2>✅ What's Included</h2>
+            <ul style="padding-left: 20px;">
+                <li>Complete optimization script</li>
+                <li>Step-by-step README guide</li>
+                <li>Customization instructions</li>
+                <li>MIT License (use anywhere)</li>
+            </ul>
+        </div>
+        
+        <div class="cta">
+            <a href="#" class="btn">Buy Now - $5</a>
+        </div>
+        
+        <div class="testimonials">
+            <div class="card">
+                <h2>💬 Reviews</h2>
+                <div class="testimonial">
+                    "My old laptop went from unusable to smooth! Highly recommend."
+                    <br><strong>- Linux User</strong>
+                </div>
+                <div class="testimonial">
+                    "Simple, effective, and works as promised."
+                    <br><strong>- Ubuntu Forums Member</strong>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Made with ❤️ for Linux enthusiasts</p>
+            <p>Questions? Contact: your.email@example.com</p>
+        </div>
+    </div>
+</body>
+</html>
