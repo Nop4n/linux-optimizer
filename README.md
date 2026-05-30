@@ -120,8 +120,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Issues:** GitHub Issues
-- **Email:** your.email@example.com
-- **Discord:** your-discord
+- **Email:** jayenkxyz@gmail.com
+- **X:** @Nopan____
 
 ---
 
